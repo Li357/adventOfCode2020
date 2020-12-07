@@ -7,7 +7,7 @@ init().then((lines) => {
         if (i !== j && j !== k && k !== i) {
           const x = Number(lines[i]);
           const y = Number(lines[j]);
-          const z = Number(lines[k])
+          const z = Number(lines[k]);
 
           if (x + y + z === 2020) {
             console.log(x * y * z);

@@ -1,4 +1,4 @@
-const init = require("../util/init");
+const init = require('../util/init');
 
 init('\n\n').then((lines) => {
   const reqFields = ['byr', 'iyr', 'eyr', 'hgt', 'hcl', 'ecl', 'pid'];

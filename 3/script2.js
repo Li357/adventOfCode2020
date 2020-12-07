@@ -18,7 +18,13 @@ function countTrees(lines, r, d) {
 }
 
 init().then((lines) => {
-  const product = [[1, 1], [3, 1], [5, 1], [7, 1], [1, 2]]
+  const product = [
+    [1, 1],
+    [3, 1],
+    [5, 1],
+    [7, 1],
+    [1, 2],
+  ]
     .map((slope) => countTrees(lines, ...slope))
     .reduce((p, trees) => (p || 1) * trees, 0);
   console.log(product);
