@@ -12,7 +12,7 @@ function search(nums, i) {
 }
 
 init().then((lines) => {
-  const nums = lines.slice(25).map(Number);
+  const nums = lines.map(Number);
 
   for (let i = 25; i < nums.length; i++) {
     const curr = nums[i];
